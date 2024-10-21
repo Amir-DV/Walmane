@@ -14,45 +14,48 @@ This function has two types: manual and automated.
 
 Additionally, if a user receives three warnings, they will be automatically banned from the server.
 
-![Warning / Blacklist Function](placeholder.gif)
+![Warning / Blacklist Function](https://placehold.co/600x400)
 
 ### 2. Channel Creation System 📅
 Organizers require separate channels for each raid. Traditionally, they need to manually request channel creation from Discord server admins. With this system, organizers can click a button to initiate a process where the bot requests the necessary information for channel creation. Once submitted, admins receive the request in a designated channel and can confirm or deny it, streamlining the channel creation process.
 
-![Channel Creation System](placeholder.gif)
+![Channel Creation System](https://placehold.co/600x400)
 
 ### 3. Follow System 🔔
 Each channel is gate-locked with specific roles, such as different raid types or days. For example, if a user selects the "Tuesday Raid" role, they will only see raids scheduled for that day. Additionally, users can follow their favorite organizers without needing other roles. When they follow an organizer, they receive a special role that allows access to any channels created by that organizer.
 
-![Follow System](placeholder.gif)
+![Follow System](https://placehold.co/600x400)
 
 ### 4. Rating Setup ⭐
 Users often want to provide anonymous feedback about specific organizers. With the rating system, users can click a button to rate an organizer and provide feedback, whether positive or negative. The submission is sent to a channel visible only to admins, who can confirm or deny the rating. Organizers can see the feedback but cannot identify the sender.
 
-![Rating Setup](placeholder.gif)
+![Rating Setup](https://placehold.co/600x400)
 
 ### 5. Verification System ✅
 Users are required to verify their class/spec by answering a series of questions. The verification requests are sent to a channel accessible by admins and organizers, but not the user. There is also a command that users can use to view their latest verification submissions for each of their classes/specs.
 
-![Verification System](placeholder.gif)
+![Verification System](https://placehold.co/600x400)
 
 ### 6. Auto Signup Command ⚡
 Normally, users must click a button or react to sign up for events posted by organizers. However, with the Auto Signup command, users can set a specific class/spec tied to a channel. Whenever a new signup is posted in that channel, users are automatically signed up with the class/spec they set earlier.
 
-![Auto Signup Command](placeholder.gif)
+![Auto Signup Command](https://placehold.co/600x400)
 
 ### 7. Notify System 📩
 When an organizer creates a roster from the signed-up users, the following occurs:
 1. All users on the roster receive a DM notification confirming their slot in the raid.
 2. If there is a warned user in the roster, the organizer is notified via DM, with the reasons for the warning included.
 
-![Notify System](placeholder.gif)
+![Notify System](https://placehold.co/600x400)
 
 ### 8. Scheduled Message System ⏰
 This function connects to a Google Spreadsheet, allowing organizers to schedule messages. Messages and their scheduled times are stored in the spreadsheet, and the bot sends those messages to a designated channel at the specified times.
 
 ## Note
 All features are integrated with MongoDB, which serves as the database for storing warnings and other essential data.
+
+## License
+This project is private and not for public use. All rights reserved. Unauthorized copying, sharing, or distribution of this code is strictly prohibited.
 
 ## Contact Me
 Feel free to reach out on Discord: [Iviolet](https://discordapp.com/users/856956452740792320) 💬
