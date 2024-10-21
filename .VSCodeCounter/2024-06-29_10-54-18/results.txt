@@ -1,0 +1,97 @@
+Date : 2024-06-29 10:54:18
+Directory : d:\Discord Bot Projects\Walmane V14
+Total : 53 files,  9708 codes, 341 comments, 643 blanks, all 10692 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         50 |      7,914 |        341 |        640 |      8,895 |
+| JSON       |          3 |      1,794 |          0 |          3 |      1,797 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                          |         53 |      9,708 |        341 |        643 |     10,692 |
+| . (Files)                                                                                                  |          4 |      1,818 |          0 |         10 |      1,828 |
+| Commands                                                                                                   |         19 |      1,686 |        104 |        173 |      1,963 |
+| Commands\General                                                                                           |         15 |      1,226 |         82 |        128 |      1,436 |
+| Commands\Owner                                                                                             |          2 |         92 |          9 |          9 |        110 |
+| Commands\Premium                                                                                           |          1 |        352 |          9 |         33 |        394 |
+| Commands\Public                                                                                            |          1 |         16 |          4 |          3 |         23 |
+| Events                                                                                                     |         17 |      5,516 |        236 |        388 |      6,140 |
+| Events\Client                                                                                              |          3 |      2,476 |         88 |        133 |      2,697 |
+| Events\Interactions                                                                                        |          1 |         12 |          0 |          5 |         17 |
+| Events\Shoutout-Featured                                                                                   |          2 |        169 |         15 |         16 |        200 |
+| Events\Verification                                                                                        |          4 |        768 |         27 |         38 |        833 |
+| Events\Verification-CH                                                                                     |          3 |      1,646 |         63 |        139 |      1,848 |
+| Events\Verification-Rate                                                                                   |          4 |        445 |         43 |         57 |        545 |
+| Functions                                                                                                  |          5 |        538 |          1 |         39 |        578 |
+| Functions (Files)                                                                                          |          1 |         22 |          1 |          3 |         26 |
+| Functions\Channel-Create                                                                                   |          4 |        516 |          0 |         36 |        552 |
+| Functions\Channel-Create\Day-Category                                                                      |          4 |        516 |          0 |         36 |        552 |
+| Handlers                                                                                                   |          3 |        101 |          0 |         21 |        122 |
+| Models                                                                                                     |          5 |         49 |          0 |         12 |         61 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                   | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Discord Bot Projects\Walmane V14\Commands\General\blackList.js                                          | JavaScript |         79 |          4 |          7 |         90 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\blacklistShow.js                                      | JavaScript |         43 |          4 |          8 |         55 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\channelCreateSetup.js                                 | JavaScript |         39 |          4 |          7 |         50 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\clear.js                                              | JavaScript |         45 |          4 |          7 |         56 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\follow.js                                             | JavaScript |         62 |          4 |          6 |         72 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\followers.js                                          | JavaScript |         81 |          4 |          8 |         93 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\forceFetish.js                                        | JavaScript |         70 |          6 |          9 |         85 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\ratingSetup.js                                        | JavaScript |         37 |          4 |          7 |         48 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\runs.js                                               | JavaScript |         75 |          4 |          8 |         87 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\shoutout.js                                           | JavaScript |        127 |          8 |          9 |        144 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\unfollow.js                                           | JavaScript |         59 |          4 |          5 |         68 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\verificationSetup.js                                  | JavaScript |         35 |          4 |          6 |         45 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\verifyHistory.js                                      | JavaScript |        142 |         20 |         21 |        183 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\warning.js                                            | JavaScript |        232 |          4 |         11 |        247 |
+| d:\Discord Bot Projects\Walmane V14\Commands\General\warningList.js                                        | JavaScript |        100 |          4 |          9 |        113 |
+| d:\Discord Bot Projects\Walmane V14\Commands\Owner\checkMessage.js                                         | JavaScript |         23 |          4 |          5 |         32 |
+| d:\Discord Bot Projects\Walmane V14\Commands\Owner\reload.js                                               | JavaScript |         69 |          5 |          4 |         78 |
+| d:\Discord Bot Projects\Walmane V14\Commands\Premium\autoSignup.js                                         | JavaScript |        352 |          9 |         33 |        394 |
+| d:\Discord Bot Projects\Walmane V14\Commands\Public\ping.js                                                | JavaScript |         16 |          4 |          3 |         23 |
+| d:\Discord Bot Projects\Walmane V14\Events\Client\messageCreate.js                                         | JavaScript |        200 |         39 |         11 |        250 |
+| d:\Discord Bot Projects\Walmane V14\Events\Client\ready.js                                                 | JavaScript |        246 |          9 |         13 |        268 |
+| d:\Discord Bot Projects\Walmane V14\Events\Client\thread.js                                                | JavaScript |      2,030 |         40 |        109 |      2,179 |
+| d:\Discord Bot Projects\Walmane V14\Events\Interactions\interactionCreate.js                               | JavaScript |         12 |          0 |          5 |         17 |
+| d:\Discord Bot Projects\Walmane V14\Events\Shoutout-Featured\Featured-Follow.js                            | JavaScript |         86 |          8 |          8 |        102 |
+| d:\Discord Bot Projects\Walmane V14\Events\Shoutout-Featured\Shoutout-Featured.js                          | JavaScript |         83 |          7 |          8 |         98 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification-CH\creationProcess.js                              | JavaScript |      1,236 |         41 |        103 |      1,380 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification-CH\verification.js                                 | JavaScript |        339 |         16 |         28 |        383 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification-CH\verificationM.js                                | JavaScript |         71 |          6 |          8 |         85 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification-Rate\ratingprocess-1.js                            | JavaScript |         34 |         11 |          7 |         52 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification-Rate\ratingprocess-2.js                            | JavaScript |         88 |          6 |         11 |        105 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification-Rate\ratingprocess-3.js                            | JavaScript |        148 |         11 |         13 |        172 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification-Rate\verification-Rate.js                          | JavaScript |        175 |         15 |         26 |        216 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification\verificationModal.js                               | JavaScript |         88 |          6 |          7 |        101 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification\verificationprocess-1.js                           | JavaScript |        219 |          8 |          7 |        234 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification\verificationprocess-2.js                           | JavaScript |        224 |          5 |          9 |        238 |
+| d:\Discord Bot Projects\Walmane V14\Events\Verification\verificationprocess-3.js                           | JavaScript |        237 |          8 |         15 |        260 |
+| d:\Discord Bot Projects\Walmane V14\Functions\Channel-Create\Day-Category\Co-Owner-With-Badge-Day.js       | JavaScript |        139 |          0 |          9 |        148 |
+| d:\Discord Bot Projects\Walmane V14\Functions\Channel-Create\Day-Category\Co-Owner-Without-Badge-Day.js    | JavaScript |        133 |          0 |          9 |        142 |
+| d:\Discord Bot Projects\Walmane V14\Functions\Channel-Create\Day-Category\No-Co-Owner-With-Badge-Day.js    | JavaScript |        125 |          0 |          9 |        134 |
+| d:\Discord Bot Projects\Walmane V14\Functions\Channel-Create\Day-Category\No-Co-Owner-Without-Badge-Day.js | JavaScript |        119 |          0 |          9 |        128 |
+| d:\Discord Bot Projects\Walmane V14\Functions\Interaction.js                                               | JavaScript |         22 |          1 |          3 |         26 |
+| d:\Discord Bot Projects\Walmane V14\Handlers\commandHandler.js                                             | JavaScript |         24 |          0 |          5 |         29 |
+| d:\Discord Bot Projects\Walmane V14\Handlers\errorHandler.js                                               | JavaScript |         45 |          0 |         12 |         57 |
+| d:\Discord Bot Projects\Walmane V14\Handlers\eventHandler.js                                               | JavaScript |         32 |          0 |          4 |         36 |
+| d:\Discord Bot Projects\Walmane V14\Models\autoSignup.js                                                   | JavaScript |          8 |          0 |          3 |         11 |
+| d:\Discord Bot Projects\Walmane V14\Models\blackList.js                                                    | JavaScript |          9 |          0 |          2 |         11 |
+| d:\Discord Bot Projects\Walmane V14\Models\communityRules.js                                               | JavaScript |         11 |          0 |          2 |         13 |
+| d:\Discord Bot Projects\Walmane V14\Models\rosterinfoDB.js                                                 | JavaScript |         11 |          0 |          3 |         14 |
+| d:\Discord Bot Projects\Walmane V14\Models\warningList.js                                                  | JavaScript |         10 |          0 |          2 |         12 |
+| d:\Discord Bot Projects\Walmane V14\config.json                                                            | JSON       |          5 |          0 |          1 |          6 |
+| d:\Discord Bot Projects\Walmane V14\index.js                                                               | JavaScript |         24 |          0 |          7 |         31 |
+| d:\Discord Bot Projects\Walmane V14\package-lock.json                                                      | JSON       |      1,761 |          0 |          1 |      1,762 |
+| d:\Discord Bot Projects\Walmane V14\package.json                                                           | JSON       |         28 |          0 |          1 |         29 |
+| Total                                                                                                      |            |      9,708 |        341 |        643 |     10,692 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,0 +1,5 @@
+{
+    "token": "BotToken",
+    "mongodb": "MongoDBString",
+    "raidhelperAPI": "RaidHelperAPI"
+}
